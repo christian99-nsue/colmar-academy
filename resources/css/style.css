@@ -9,18 +9,24 @@ html{
 /*header*/
 header{
     background-color: white;
-    height: 4rem;
+    height: 5rem;
     padding: 1rem 1.5rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
 }
 /*nav*/
 nav {
     background-color: white;
+    margin-bottom: 1rem;
 }
 /*logo*/
 nav img{
     height: 3.5rem;
     width: auto;
     float: left;
+    margin-bottom: 1rem;
 }
 nav h2{
     float: left;
@@ -48,4 +54,46 @@ nav ul li a{
     color: rgb(91, 89, 89);
     text-decoration: none;
     font-size: 1.2rem;
+}
+/*main*/
+.main{
+    position: relative;
+}
+.first{
+    background-color: rgb(194, 194, 194);
+    position: relative;
+    top: 5rem;
+    display: flex;
+}
+.photo{
+    flex: 65%;
+}
+.first .photo img{
+    width: 90%;
+    margin: 2rem 1.5rem;
+    height: 400px;
+}
+.learn{
+    flex: 35%;
+    align-content: center;
+}
+.learn h1{
+    font-size: 2.8rem;
+    color: rgb(51, 51, 51);
+    margin-bottom: 1.3rem;
+}
+.learn p{
+    font-size: 1.5rem;
+    color: rgb(56, 56, 56);
+    margin-bottom: 1.3rem;
+}
+.learn button{
+    background-color: rgb(67, 67, 67);
+    color: white;
+    width: 70%;
+    height: 2.8rem;
+    border: 0;
+    cursor: pointer;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
 }
