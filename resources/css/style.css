@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+/*header*/
+header{
+    background-color: white;
+    height: 4rem;
+    padding: 1rem 1.5rem;
+}
+/*nav*/
+nav {
+    background-color: white;
+}
+/*logo*/
+nav img{
+    height: 3.5rem;
+    width: auto;
+    float: left;
+}
+nav h2{
+    float: left;
+    text-transform: uppercase;
+    color: rgb(55, 55, 55);
+    font-size: 2rem;
+    line-height: 1.5;
+}
+nav span{
+    color: rgb(152, 152, 152);
+}
+/*nav links*/
+nav ul{
+    float: right;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1.25rem;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+nav ul li a{
+    color: rgb(91, 89, 89);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
