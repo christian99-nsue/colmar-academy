@@ -313,4 +313,38 @@ footer span{
     #desktop{
         display: none;
     }
+    .first{
+        display: block;
+        width: 100%;
+    }
+    .first .photo img {
+        width: 100%;
+        height: 300px;
+        margin: 0;
+    }
+    .learn h1 {
+        font-size: 2.8rem;
+        color: rgb(51, 51, 51);
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+        }
+    .learn p {
+        font-size: 1.5rem;
+        color: rgb(56, 56, 56);
+        margin-left: 1rem;
+        margin-bottom: 1.5rem;
+        text-align: justify;
+    }
+    .learn button {
+        background-color: rgb(67, 67, 67);
+        color: white;
+        width: 93%;
+        height: 2.8rem;
+        border: 0;
+        margin: 0 1rem 2rem;
+        cursor: pointer;
+        padding-bottom: .5rem;
+        padding-top: .5rem;
+}
 }
