@@ -173,4 +173,52 @@ nav ul li a{
 .lecture div:nth-child(3){
     background-color: rgb(211, 209, 209);
 }
+.third{
+    background-color: rgb(231, 231, 231);
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.third h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: rgb(92, 92, 92);
+}
+.third div{
+    display: flex;
+}
+.third div div{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: block;
+    flex: 30%;
+    background-color: white;
+    height: 350px;
+    margin-bottom: 2rem;
+}
+.third div div img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+.third div div h2{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    color: rgb(92, 92, 92);
+    margin-bottom: .5rem;
+}
+.third div div span{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: rgb(92, 92, 92);
+    margin-left: 1rem;
+}
+.third div div p{
+    margin-top: .5rem;
+    font-size: 1.1rem;
+    color: rgb(92, 92, 92);
+    margin-left: 1rem;
+    line-height: 1.4;
+}
 
