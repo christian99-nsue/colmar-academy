@@ -17,44 +17,55 @@ header{
     top: 0;
     width: 100%;
 }
-/*nav*/
-nav {
+/*nav-desktop*/
+#desktop {
     background-color: white;
     margin-bottom: 1rem;
 }
-/*logo*/
-nav img{
+/*logo-desktop*/
+#desktop img{
     height: 3.5rem;
     width: auto;
     float: left;
     margin-bottom: 1rem;
 }
-nav h2{
+#desktop h2{
     float: left;
     text-transform: uppercase;
     color: rgb(55, 55, 55);
     font-size: 2rem;
     line-height: 1.5;
 }
-nav span{
+#desktop span{
     color: rgb(152, 152, 152);
 }
-/*nav links*/
-nav ul{
+/*nav-desktop-links*/
+#desktop ul{
     float: right;
     display: flex;
     margin-top: 1rem;
     margin-bottom: 1.25rem;
     list-style: none;
 }
-nav ul li{
+#desktop ul li{
     margin-left: 1rem;
     margin-right: 1rem;
 }
-nav ul li a{
+#desktop ul li a{
     color: rgb(91, 89, 89);
     text-decoration: none;
     font-size: 1.2rem;
+}
+/*nav-mobile*/
+#mobile{
+    background-color: white;
+    height: 4rem;
+    width: 100%;
+}
+#mobile a img{
+    height: 3.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 /*main*/
 .main{
@@ -296,4 +307,10 @@ footer p{
 footer span{
     float: right;
     margin-right: 1rem;
+}
+
+@media only screen and (max-width:520px){
+    #desktop{
+        display: none;
+    }
 }
