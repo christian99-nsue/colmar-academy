@@ -346,5 +346,53 @@ footer span{
         cursor: pointer;
         padding-bottom: .5rem;
         padding-top: .5rem;
-}
+    }
+    .information{
+        display: none;
+    }
+    .lecture{
+        background-color: white;
+    }
+    .lecture div {
+        display: block;
+        align-items: center;
+        padding: 1.5rem 1rem 4rem 1rem;
+        border: none;
+    }
+    .desk{
+        display: none;
+    }
+    .lecture div img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1.5rem;
+    }
+    .lecture div span {
+        font-size: 2rem;
+        color: rgb(92, 92, 92);
+        font-weight: bold;
+        margin-left: 1rem;
+    }
+    .lecture div p {
+        font-size: 1.3rem;
+        color: rgb(92, 92, 92);
+        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .lecture div a {
+        text-decoration: none;
+        font-size: 1.3rem;
+        margin-left: 1rem;
+        color: rgb(79, 197, 243);
+    }
+    .lecture div:nth-child(2) {
+        border-top: none;
+        border-bottom: none;
+    }
+    
+    .lecture div:nth-child(3) {
+        background-color: white;
+        padding-bottom: 2rem;
+    }
 }
