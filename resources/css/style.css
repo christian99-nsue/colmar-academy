@@ -352,6 +352,7 @@ footer span{
     }
     .lecture{
         background-color: white;
+        border-bottom: 1px solid rgb(237, 234, 234);
     }
     .lecture div {
         display: block;
@@ -395,4 +396,38 @@ footer span{
         background-color: white;
         padding-bottom: 2rem;
     }
+    .third {
+        background-color: white;
+        padding-top: 2rem;
+        padding-left: 0;
+        margin: 0;
+        border-bottom: 1px solid rgb(193, 191, 191);
+    }
+    .third h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        color: rgb(92, 92, 92);
+    }
+    .third div {
+        display: block;
+        padding-bottom: 2rem;
+        
+    }
+    .third div div {
+        margin-right: 1rem;
+        display: block;
+        background-color: rgb(226, 225, 225);
+        height: 70px;
+        margin-bottom: .5rem;
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+        width: 100%;
+    }
+    .third div div h2 {
+        font-size: 1.8rem;
+        color: rgb(92, 92, 92);
+        margin-bottom: .5rem;
+    }
+
 }
