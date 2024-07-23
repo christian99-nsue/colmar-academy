@@ -459,3 +459,11 @@ footer span{
     }
 
 }
+@media only screen and (min-width: 521px){
+    #mobile{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+}
